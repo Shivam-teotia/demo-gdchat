@@ -1,0 +1,79 @@
+*{
+    margin: 0 !important;
+}
+@media (max-aspect-ratio: 7/10) {
+    .JoinContainer{
+        width: 100% !important;
+        /*border: 2px solid white;*/
+    }
+    .JoinContainer > img{
+        width: 30vmax !important;
+    }
+    .JoinContainer > h1{
+        /*color: white;*/
+        font-size: 6vw !important;
+        /*font-family: "Roboto";*/
+        /*width: 28vmax*/
+        width: 65vw !important;
+        border-bottom: 0.6vw solid wheat !important;
+        /*text-align: center;*/
+        padding: 3vw !important; 
+        /*box-sizing: border-box;*/
+    }
+    .input{
+        width: 65vw !important;
+        /*background-color: aqua;*/
+    }
+    #joinInput{
+        width: 65vw !important;
+        margin-top: 5vw !important;
+        padding: 3vw !important;
+        font-size: 4vw !important;
+    } 
+    .joinbtn{
+        width: 65vw !important;
+        padding: 3vw !important;
+        font-size: 4vw !important;
+        margin-top: 1vw !important;
+    }
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .header{
+        height: 10% !important;
+    }
+    .header>h2{
+        padding-left: 4vw !important;
+        font-size: 5vw !important;
+    }
+    .header img{
+        padding-right: 4vw !important;
+        width: 4vw !important;
+    }
+    .chatBox{
+        /*border: 0.2vmax solid black;*/
+        height: 80% !important;
+        box-sizing: border-box;
+        
+    }
+    .InputBox{
+        /*border: 0.2vmax solid black;*/
+        height: 10% !important;
+    }
+    #chatInput{
+        font-size: 4vw !important;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+        padding: 4vw !important;
+    }
+    .messagecontent{
+        width: initial !important;
+        padding: 3.2vw !important;
+        font-size: 3vw !important;
+        margin: 1vw !important;
+        border-radius: 1.5vw !important;
+        font-family: 'Verdana';
+    }
+}

@@ -1,0 +1,27 @@
+.messageBox{
+    width: 100%;
+    color: black;
+    padding: 0.8vmax;
+    box-sizing: border-box;
+    display: inline-block;
+    clear: both;
+}
+.messagecontent{
+    width: 75%;
+    background-color: gainsboro;
+    padding: 0.8vmax;
+    border-radius: 0.5vmax;
+    font-family: 'Verdana';
+}
+.right{
+    float: right;
+    background-color: rgb(163, 46, 69);
+    color: whitesmoke;
+    text-align: right;
+}
+.left{
+    float: left;
+    background-color: rgba(188, 243, 162, 0.966);
+    text-align: left;
+    color: black;
+}
